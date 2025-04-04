@@ -4,8 +4,8 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pybundler"
-version = "0.1.0" # Keep in sync with src/pybundler/__init__.py
+name = "filebundler"
+version = "0.1.0" # Keep in sync with src/filebundler/__init__.py
 authors = [
     { name = "Your Name", email = "your.email@example.com" }, # CHANGE THIS
 ]
@@ -37,4 +37,4 @@ Homepage = "https://github.com/yourusername/pybundler" # CHANGE THIS
 Issues = "https://github.com/yourusername/pybundler/issues" # CHANGE THIS
 
 [project.scripts]
-pybundler = "pybundler.cli:main"
+filebundler = "filebundler.cli:main"

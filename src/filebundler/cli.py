@@ -1,5 +1,5 @@
-# src/pybundler/cli.py
-"""Command-line interface for PyBundler."""
+# src/filebundler/cli.py
+"""Command-line interface for FileBundler."""
 
 import argparse
 from pathlib import Path
@@ -10,21 +10,21 @@ from .defaults import DEFAULT_BUNDLE_FILENAME
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description=f"PyBundler v{__version__}: Pack or unpack Python projects.",
+        description=f"FileBundler v{__version__}: Pack or unpack project files.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   # Bundle current directory into 'project.pybundle', using .gitignore
-  pybundler bundle .
+  filebundler bundle .
 
   # Bundle 'my_project/' into 'my_app.bundle'
-  pybundler bundle my_project/ -o my_app.bundle
+  filebundler bundle my_project/ -o my_app.bundle
 
   # Bundle current directory, using a custom ignore file
-  pybundler bundle . --ignore .customignore
+  filebundler bundle . --ignore .customignore
 
   # Unpack 'my_app.bundle' into 'output_project/' directory
-  pybundler unbundle my_app.bundle -o output_project/
+  filebundler unbundle my_app.bundle -o output_project/
 """
     )
     parser.add_argument(

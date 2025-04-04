@@ -1,4 +1,4 @@
-# src/pybundler/defaults.py
+# src/filebundler/defaults.py
 """Default configuration and constants."""
 
 # Default patterns to ignore, similar to a common .gitignore
@@ -50,6 +50,7 @@ DEFAULT_IGNORE_PATTERNS = [
 
     # PyBundler's own output
     "*.pybundle",
+    "*.filebundle",
 ]
 
 # Markers for the bundle file format
@@ -57,4 +58,4 @@ START_MARKER_TEMPLATE = "--- START FILE: {filepath} ---"
 END_MARKER_TEMPLATE = "--- END FILE: {filepath} ---"
 
 # Default output bundle filename
-DEFAULT_BUNDLE_FILENAME = "project.pybundle"
+DEFAULT_BUNDLE_FILENAME = "project.filebundle"

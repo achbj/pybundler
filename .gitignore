@@ -17,6 +17,7 @@ pip-delete-this-directory.txt
 dist/
 build/
 wheels/
+~/
 
 # PyBundler output
 *.pybundle

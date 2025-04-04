@@ -4,7 +4,7 @@
 
 ## The Problem
 
-Sharing multi-file codebases or providing them as context to LLMs can be cumbersome. You might need to zip archives, copy-paste multiple files, or struggle with context window limits. LLMs often work best when they can see the relevant code structure and content together.
+> Sharing multi-file codebases or providing them as context to LLMs can be cumbersome. You might need to zip archives, copy-paste multiple files, or struggle with context window limits. LLMs often work best when they can see the relevant code structure and content together.
 
 ## The Solution
 

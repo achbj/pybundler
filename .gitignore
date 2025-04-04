@@ -39,3 +39,9 @@ htmlcov/
 
 # Docs build
 site/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+wheels/
